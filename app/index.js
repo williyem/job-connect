@@ -1,4 +1,7 @@
-import { View, Text } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
+import React from "react";
+import { Stack, useRouter } from "expo-router";
+import { COLORS, SIZES, icons, images } from "../constants";
 
 const Home = () => {
   return (
@@ -9,3 +12,5 @@ const Home = () => {
 };
 
 export default Home;
+
+const styles = StyleSheet.create({});
