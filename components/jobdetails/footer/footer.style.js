@@ -6,8 +6,8 @@ const styles = StyleSheet.create({
   container: {
     position: "absolute",
     bottom: 0,
-    left: 0,
-    right: 0,
+    left: 10,
+    right: 10,
     padding: SIZES.small,
     backgroundColor: "#FFF",
     justifyContent: "space-between",
@@ -17,6 +17,7 @@ const styles = StyleSheet.create({
   likeBtn: {
     width: 55,
     height: 55,
+
     borderWidth: 1,
     borderColor: "#F37453",
     borderRadius: SIZES.medium,
@@ -31,6 +32,7 @@ const styles = StyleSheet.create({
   applyBtn: {
     flex: 1,
     backgroundColor: "#FE7654",
+    marginBottom: 5,
     height: "100%",
     justifyContent: "center",
     alignItems: "center",
